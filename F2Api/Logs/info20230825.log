@@ -1,0 +1,11 @@
+﻿2023-08-25 13:45:33,730 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/GetBerthsSyn?SyncTime=20230825110320&Berthesclist=1207,,参数描述{"SyncTime":"20230825110320","Berthesclist":"1207,"}
+2023-08-25 13:46:00,763 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/GetBerthsSyn?SyncTime=20230825110320&Berthesclist=1207,,参数描述{"SyncTime":"20230825110320","Berthesclist":"1207,"}
+2023-08-25 13:53:15,743 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/GetBerthsSyn?SyncTime=20230825110320&Berthesclist=1207,,参数描述{"SyncTime":"20230825110320","Berthesclist":"1207,"}
+2023-08-25 13:55:10,703 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/GetBerthsSyn?SyncTime=20230825110320&Berthesclist=1207,,参数描述{"SyncTime":"20230825110320","Berthesclist":"1207,"}
+2023-08-25 13:57:55,122 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/GetBerthsSyn?SyncTime=20230825110320&Berthesclist=1207,,参数描述{"SyncTime":"20230825110320","Berthesclist":"1207,"}
+2023-08-25 13:58:18,322 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/GetBerthsSyn?SyncTime=20230825110320&Berthesclist=1207,,参数描述{"SyncTime":"20230825110320","Berthesclist":"1207,"}
+2023-08-25 17:49:58,940 [14] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/GetBerthsSyn?SyncTime=20230825110320&Berthesclist=1207,,参数描述{"SyncTime":"20230825110320","Berthesclist":"1207,"}
+2023-08-25 18:49:53,096 [14] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/GetBerthsSyn?SyncTime=20230825110320&Berthesclist=1208,,参数描述{"SyncTime":"20230825110320","Berthesclist":"1208,"}
+2023-08-25 18:49:59,649 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/GetBerthsSyn?SyncTime=20230825110320&Berthesclist=1208,,参数描述{"SyncTime":"20230825110320","Berthesclist":"1208,"}
+2023-08-25 18:50:09,413 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/GetBerthsSyn?SyncTime=20230825110320&Berthesclist=1208,,参数描述{"SyncTime":"20230825110320","Berthesclist":"1208,"}
+2023-08-25 18:50:19,547 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/GetBerthsSyn?SyncTime=20230825110320&Berthesclist=1208,,参数描述{"SyncTime":"20230825110320","Berthesclist":"1208,"}

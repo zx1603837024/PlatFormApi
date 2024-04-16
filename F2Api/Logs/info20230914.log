@@ -1,0 +1,6 @@
+﻿2023-09-14 13:32:47,153 [14] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfaceParkade/PostMqttData?input={"AuditStatus":1,"Ids":"1,2,3,4"},参数描述{}
+2023-09-14 13:45:02,100 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfaceParkade/PostMqttData?input={"AuditStatus":1,"Ids":"1,2,3,4"},参数描述{}
+2023-09-14 15:19:03,192 [14] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfaceParkade/PostMqttData?input={"AuditStatus":1,"Ids":"1,2,3,4"},参数描述{}
+2023-09-14 15:26:01,386 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfaceParkade/PostMqttData?input={"AuditStatus":1,"Ids":"1,2,3,4"},参数描述{}
+2023-09-14 15:30:35,629 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfaceParkade/PostMqttData?input={"AuditStatus":1,"Ids":"1,2,3,4"},参数描述{}
+2023-09-14 15:47:32,023 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfaceParkade/PostMqttData?input={"AuditStatus":1,"Ids":"1,2,3,4"},参数描述{}

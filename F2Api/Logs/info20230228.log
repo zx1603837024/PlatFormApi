@@ -1,0 +1,4 @@
+﻿2023-02-28 10:17:46,687 [8] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfaceParkadeTest/PlateResultReceive,参数描述{"dto":null}
+2023-02-28 10:38:24,056 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfaceParkadeTest/PlateResultReceive,参数描述{"dto":null}
+2023-02-28 10:39:16,054 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfaceParkadeTest/PlateResultReceive,参数描述{"dto":null}
+2023-02-28 13:56:16,671 [15] INFO  log - 来自192.168.0.119的请求,请求地址http://192.168.0.119:56882/api/InterfaceParkadeTest/PlateResultReceive,参数描述{"dto":null}

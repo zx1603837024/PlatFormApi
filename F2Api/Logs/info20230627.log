@@ -1,0 +1,35 @@
+﻿2023-06-27 09:19:26,441 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetAllFeeList,参数描述{"input":{"StartTime":"2023-06-01 00:00:00","access_token":"379d93dd-b5b9-433e-8ce3-defaf7474f4e","EndTime":"2023-06-02 00:00:00"}}
+2023-06-27 09:19:36,057 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetAllFeeList,参数描述{"input":{"StartTime":"2023-06-01 00:00:00","access_token":"379d93dd-b5b9-433e-8ce3-defaf7474f4e","EndTime":"2023-06-02 00:00:00"}}
+2023-06-27 09:19:53,910 [20] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetAllFeeList,参数描述{"input":{"StartTime":"2023-06-01 00:00:00","access_token":"379d93dd-b5b9-433e-8ce3-defaf7474f4e","EndTime":"2023-06-02 00:00:00"}}
+2023-06-27 09:38:14,588 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetIBerthInfo,参数描述{"input":{"UserName":"9999","access_token":"378bd7a8-02cb-40bc-8c4b-6d8a524b3815","Password":"123456"}}
+2023-06-27 09:38:26,597 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/ModifyPassword,参数描述{"input":{"UserName":"9999","access_token":"378bd7a8-02cb-40bc-8c4b-6d8a524b3815","Password":"123456"}}
+2023-06-27 09:39:36,625 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/ModifyPassword,参数描述{"input":{"UserName":"9999","access_token":"378bd7a8-02cb-40bc-8c4b-6d8a524b3815","Password":"123455"}}
+2023-06-27 11:01:18,968 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/DownParameterForInspectors?access_token=1557f48a-f211-4394-bddd-26986fbf8ce8,参数描述{"access_token":"1557f48a-f211-4394-bddd-26986fbf8ce8"}
+2023-06-27 11:01:59,518 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/DownParameterForInspectors?access_token=1557f48a-f211-4394-bddd-26986fbf8ce8,参数描述{"access_token":"1557f48a-f211-4394-bddd-26986fbf8ce8"}
+2023-06-27 14:05:53,976 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetInspectorsInfo,参数描述{"input":{"access_token":"378bd7a8-02cb-40bc-8c4b-6d8a524b3815"}}
+2023-06-27 14:09:16,292 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 14:13:22,141 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 14:20:12,397 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 14:21:24,615 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 14:22:30,721 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/PhotoUpLoadToAndroid,参数描述{}
+2023-06-27 14:22:40,291 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/PhotoUpLoadToAndroid,参数描述{}
+2023-06-27 14:23:01,440 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDA/PhotoUpLoadToAndroid,参数描述{}
+2023-06-27 14:24:15,268 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 14:25:00,390 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 14:27:49,602 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 14:28:32,297 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 14:35:14,579 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 14:47:09,444 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 14:58:49,712 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 15:13:31,823 [14] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertTaskFeedbacks,参数描述{}
+2023-06-27 15:36:44,733 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertInspectorsEvent,参数描述{}
+2023-06-27 15:41:05,941 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertInspectorsEvent,参数描述{}
+2023-06-27 15:41:42,493 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertInspectorsEvent,参数描述{}
+2023-06-27 15:42:32,263 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/InsertInspectorsEvent,参数描述{}
+2023-06-27 16:33:14,709 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetInspectorTasks,参数描述{"input":{"access_token":"378bd7a8-02cb-40bc-8c4b-6d8a524b3815","PageSize":"10","Page":"1"}}
+2023-06-27 16:39:14,694 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetInspectorTasks,参数描述{"input":{"access_token":"378bd7a8-02cb-40bc-8c4b-6d8a524b3815","PageSize":"10","Page":"1"}}
+2023-06-27 16:55:12,374 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetInspectorEvent,参数描述{"input":{"access_token":"378bd7a8-02cb-40bc-8c4b-6d8a524b3815","PageSize":"10","Page":"1"}}
+2023-06-27 16:55:48,312 [8] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetInspectorEvent,参数描述{"input":{"access_token":"378bd7a8-02cb-40bc-8c4b-6d8a524b3815","PageSize":"10","Page":"1"}}
+2023-06-27 16:58:50,730 [11] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetInspectorEvent,参数描述{"input":{"access_token":"378bd7a8-02cb-40bc-8c4b-6d8a524b3815","PageSize":"10","Page":"1"}}
+2023-06-27 17:13:02,871 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetInspectorTaskFeedbacks,参数描述{"input":{"access_token":"378bd7a8-02cb-40bc-8c4b-6d8a524b3815","PageSize":"10","Page":"1"}}
+2023-06-27 17:13:16,625 [12] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/GetInspectorTaskFeedbacks,参数描述{"input":{"access_token":"378bd7a8-02cb-40bc-8c4b-6d8a524b3815","PageSize":"10","Page":"1"}}

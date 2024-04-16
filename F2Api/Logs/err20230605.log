@@ -1,0 +1,10 @@
+﻿2023-06-05 15:19:49,585 [13] ERROR log - LockDownDataReceive:ErrorSQL:update AbpBerths set RelateNumber = null,OutCarTime = '2023-06-05 15:19:23', ParkStatus = 0,BerthStatus='2',CarType='' where Id = 680;update AbpBerthLockEquipsBusinessDetail set OutCarTime = '2023-06-05 15:19:23' where Id = 6252a618-12f4-4fc3-9538-fed2ee0b6f7e;update AbpBusinessDetail set CarOutTime = '2023-06-05 15:19:23',StopTime = datediff(minute, CarInTime, '2023-06-05 15:19:23'),OutOperaId = 1,OutDeviceCode = 'sdfsd' where[guid] = '6252a618-12f4-4fc3-9538-fed2ee0b6f7e'System.Data.SqlClient.SqlException (0x80131904): “a618”附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 F2.Application.BerthLock.BerthLockService.LockDownDataReceive(BerthLockRequest dto) 位置 D:\Project\PlatFormApi_Business(东莞)\F2.Application\BerthLock\BerthLockService.cs:行号 130
+ClientConnectionId:edeb60f9-7e22-48b0-a64b-a42f64f65520
+Error Number:102,State:1,Class:15

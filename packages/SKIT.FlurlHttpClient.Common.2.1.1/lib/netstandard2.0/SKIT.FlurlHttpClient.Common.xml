@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SKIT.FlurlHttpClient.Common</name>
+    </assembly>
+    <members>
+        <member name="T:SKIT.FlurlHttpClient.CommonClientBase">
+            <summary>
+            SKIT.FlurlHttpClient 客户端基类。
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.CommonClientBase.Interceptors">
+            <summary>
+            <inheritdoc />
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.CommonClientBase.JsonSerializer">
+            <summary>
+            <inheritdoc />
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.CommonClientBase.FlurlClient">
+            <summary>
+            获取当前客户端使用的 <see cref="T:Flurl.Http.IFlurlClient"/> 对象。
+            </summary>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.CommonClientBase.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.CommonClientBase.Configure(System.Action{SKIT.FlurlHttpClient.CommonClientSettings})">
+            <inheritdoc/>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.CommonClientBase.SendRequestAsync(Flurl.Http.IFlurlRequest,System.Net.Http.HttpContent,System.Threading.CancellationToken)">
+            <summary>
+            异步发起请求。
+            </summary>
+            <param name="flurlRequest"></param>
+            <param name="httpContent"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.CommonClientBase.SendRequestWithJsonAsync(Flurl.Http.IFlurlRequest,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            异步发起请求。
+            <para>指定请求标头 `Content-Type` 为 `application/json`。</para>
+            </summary>
+            <param name="flurlRequest"></param>
+            <param name="data"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.CommonClientBase.WrapResponseAsync``1(Flurl.Http.IFlurlResponse,System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TResponse"></typeparam>
+            <param name="flurlResponse"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.CommonClientBase.WrapResponseWithJsonAsync``1(Flurl.Http.IFlurlResponse,System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TResponse"></typeparam>
+            <param name="flurlResponse"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.CommonClientBase.Dispose">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="T:SKIT.FlurlHttpClient.CommonClientSettings">
+            <summary>
+            SKIT.FlurlHttpClient 客户端配置项。
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.CommonClientSettings.ConnectionRequestTimeout">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.CommonClientSettings.ConnectionLeaseTimeout">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.CommonClientSettings.JsonSerializer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.CommonClientSettings.UrlEncodedSerializer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.CommonClientSettings.FlurlHttpClientFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.CommonClientSettings.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SKIT.FlurlHttpClient.CommonExceptionBase">
+            <summary>
+            SKIT.FlurlHttpClient 引发的异常基类。
+            </summary>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.CommonExceptionBase.#ctor">
+            <inheritdoc/>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.CommonExceptionBase.#ctor(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.CommonExceptionBase.#ctor(System.String,System.Exception)">
+            <inheritdoc/>
+        </member>
+        <member name="T:SKIT.FlurlHttpClient.ICommonClient">
+            <summary>
+            SKIT.FlurlHttpClient 客户端接口。
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.ICommonClient.Interceptors">
+            <summary>
+            获取当前客户端的拦截器集合。
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.ICommonClient.JsonSerializer">
+            <summary>
+            获取当前客户端使用的 JSON 序列化器。
+            </summary>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.ICommonClient.Configure(System.Action{SKIT.FlurlHttpClient.CommonClientSettings})">
+            <summary>
+            配置客户端。
+            </summary>
+            <param name="configure"></param>
+        </member>
+        <member name="T:SKIT.FlurlHttpClient.ICommonRequest">
+            <summary>
+            SKIT.FlurlHttpClient 请求接口。
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.ICommonRequest.Timeout">
+            <summary>
+            获取或设置请求超时时间（单位：毫秒）。
+            </summary>
+        </member>
+        <member name="T:SKIT.FlurlHttpClient.ICommonResponse">
+            <summary>
+            SKIT.FlurlHttpClient 响应接口。
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.ICommonResponse.RawStatus">
+            <summary>
+            获取原始的 HTTP 响应状态码。
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.ICommonResponse.RawHeaders">
+            <summary>
+            获取原始的 HTTP 响应表头集合。
+            </summary>
+        </member>
+        <member name="P:SKIT.FlurlHttpClient.ICommonResponse.RawBytes">
+            <summary>
+            获取原始的 HTTP 响应正文。
+            </summary>
+        </member>
+        <member name="M:SKIT.FlurlHttpClient.ICommonResponse.IsSuccessful">
+            <summary>
+            获取一个值，该值指示调用 API 是否成功。
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{296F7411-1976-40F0-B8F2-9CA5B9925722}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>F2.Application</RootNamespace>
+    <AssemblyName>F2.Application</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AopSdk, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AopSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.3.0.2\lib\net461\Flurl.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl.Http, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.Http.3.2.0\lib\net461\Flurl.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.12\lib\net45\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SKIT.FlurlHttpClient.Common, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SKIT.FlurlHttpClient.Common.2.1.1\lib\net461\SKIT.FlurlHttpClient.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SKIT.FlurlHttpClient.Wechat.TenpayV3, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SKIT.FlurlHttpClient.Wechat.TenpayV3.2.3.0\lib\net461\SKIT.FlurlHttpClient.Wechat.TenpayV3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=6.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.6.0.1\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounts\AccountAppService.cs" />
+    <Compile Include="Accounts\Dtos\WeixinPushModel.cs" />
+    <Compile Include="Accounts\IAccountAppService.cs" />
+    <Compile Include="BerthLock\BerthLockService.cs" />
+    <Compile Include="BerthLock\Dtos\BerthLockRequest.cs" />
+    <Compile Include="BerthLock\Dtos\BerthLockRespose.cs" />
+    <Compile Include="BerthLock\IBerthLockService.cs" />
+    <Compile Include="Inspectors\Dtos\BerthDto.cs" />
+    <Compile Include="Inspectors\IInspectorAppService.cs" />
+    <Compile Include="Inspectors\InspectorAppService.cs" />
+    <Compile Include="Invoice\Dtos\InvoiceResponse.cs" />
+    <Compile Include="Invoice\IInvoiceService.cs" />
+    <Compile Include="Invoice\InvoiceService.cs" />
+    <Compile Include="Parkade\Dtos\ParkadeRequest.cs" />
+    <Compile Include="Parkade\Dtos\ParkadeResponse.cs" />
+    <Compile Include="Parkade\Dtos\PlateRequest.cs" />
+    <Compile Include="Parkade\IParkadeService.cs" />
+    <Compile Include="Parkade\ParkadeService.cs" />
+    <Compile Include="Parking\Dtos\AbpParkChannerlDto.cs" />
+    <Compile Include="Parking\Dtos\AbpParkingMonthlyRentDto.cs" />
+    <Compile Include="Parking\Dtos\AbpParkingRecordDto.cs" />
+    <Compile Include="Parking\Dtos\AbpParksDto.cs" />
+    <Compile Include="Parking\Dtos\AbpRemoteOpenLogDto.cs" />
+    <Compile Include="Parking\Dtos\CarOutPayCallBackInput.cs" />
+    <Compile Include="Parking\Dtos\CommonOutput.cs" />
+    <Compile Include="Parking\Dtos\DelMonthlyRentInput.cs" />
+    <Compile Include="Parking\Dtos\EOrderStatus.cs" />
+    <Compile Include="Parking\Dtos\GetParkingBillInput.cs" />
+    <Compile Include="Parking\Dtos\GetParkingBillOutPut.cs" />
+    <Compile Include="Parking\Dtos\ModifyMonthlyRentInput.cs" />
+    <Compile Include="Parking\Dtos\PushParingRecordInput.cs" />
+    <Compile Include="Parking\Dtos\PushParingRecordOutput.cs" />
+    <Compile Include="Parking\Dtos\RemoteOpenInput.cs" />
+    <Compile Include="Parking\Dtos\SaveMonthlyRentInput.cs" />
+    <Compile Include="Parking\IParkingService.cs" />
+    <Compile Include="Parking\ParkingService.cs" />
+    <Compile Include="Parking\SQLFactory.cs" />
+    <Compile Include="Parking\ZhiBo\CalculatingTempCostNoIdsRequest.cs" />
+    <Compile Include="Parking\ZhiBo\CalculatingTempCostNoIdsResponse.cs" />
+    <Compile Include="Parking\ZhiBo\DelMonthlyRentRequest.cs" />
+    <Compile Include="Parking\ZhiBo\DelMonthlyRentResponse.cs" />
+    <Compile Include="Parking\ZhiBo\NoPlateQRcodeRequest.cs" />
+    <Compile Include="Parking\ZhiBo\NoPlateQRcodeResponse.cs" />
+    <Compile Include="Parking\ZhiBo\PayTempCostRequest.cs" />
+    <Compile Include="Parking\ZhiBo\PayTempCostResponse.cs" />
+    <Compile Include="Parking\ZhiBo\SaveMonthlyRentRequest.cs" />
+    <Compile Include="Parking\ZhiBo\SaveMonthlyRentResponse.cs" />
+    <Compile Include="PatrolCar\Dtos\PatrolCarRequest.cs" />
+    <Compile Include="PatrolCar\Dtos\PatrolCarResponse .cs" />
+    <Compile Include="PatrolCar\IPatrolCarService.cs" />
+    <Compile Include="PatrolCar\PatrolCarService.cs" />
+    <Compile Include="PDA\BerthsecAppService.cs" />
+    <Compile Include="PDA\Dtos\AbpLoginResult.cs" />
+    <Compile Include="PDA\Dtos\Config.cs" />
+    <Compile Include="PDA\Dtos\AndroidLog.cs" />
+    <Compile Include="PDA\Dtos\BerthDto.cs" />
+    <Compile Include="PDA\Dtos\BerthsecCheckDto.cs" />
+    <Compile Include="PDA\Dtos\BerthsecDto.cs" />
+    <Compile Include="PDA\Dtos\BerthSensorDto.cs" />
+    <Compile Include="PDA\Dtos\BlackListDto.cs" />
+    <Compile Include="PDA\Dtos\BlackListsDto.cs" />
+    <Compile Include="PDA\Dtos\BusinessDetailDto.cs" />
+    <Compile Include="PDA\Dtos\CarinParkingDto.cs" />
+    <Compile Include="PDA\Dtos\CaroutParkingDto.cs" />
+    <Compile Include="PDA\Dtos\EmployeeDto.cs" />
+    <Compile Include="PDA\Dtos\EmployeeLoginInput.cs" />
+    <Compile Include="PDA\Dtos\EquipmentDto.cs" />
+    <Compile Include="PDA\Dtos\EquipmentVersionDto.cs" />
+    <Compile Include="PDA\Dtos\EscapeDetailInput.cs" />
+    <Compile Include="PDA\Dtos\EscapeDetailsDto.cs" />
+    <Compile Include="PDA\Dtos\FeeBackDto.cs" />
+    <Compile Include="PDA\Dtos\GetAllBerthsecListOutput.cs" />
+    <Compile Include="PDA\Dtos\GetEscapeDetailList.cs" />
+    <Compile Include="PDA\Dtos\InspectorsDto.cs" />
+    <Compile Include="PDA\Dtos\IPassBlackCardDto.cs" />
+    <Compile Include="PDA\Dtos\LoginModel.cs" />
+    <Compile Include="PDA\Dtos\LoginTokenInput.cs" />
+    <Compile Include="PDA\Dtos\MonthlyCarDto.cs" />
+    <Compile Include="PDA\Dtos\OtherAccountModel.cs" />
+    <Compile Include="PDA\Dtos\PdaModel.cs" />
+    <Compile Include="PDA\Dtos\PicMongoDto.cs" />
+    <Compile Include="PDA\Dtos\PrintAdDto.cs" />
+    <Compile Include="PDA\Dtos\QueryCardInput.cs" />
+    <Compile Include="PDA\Dtos\RemoteGuidDto.cs" />
+    <Compile Include="PDA\Dtos\SensorBusinessdetailDto.cs" />
+    <Compile Include="PDA\Dtos\SpecialListsDto.cs" />
+    <Compile Include="PDA\Dtos\FreeOrderDetailDto.cs" />
+    <Compile Include="PDA\Dtos\StopOrderDto.cs" />
+    <Compile Include="PDA\Dtos\TenantDto.cs" />
+    <Compile Include="PDA\Dtos\TicketStyleDto.cs" />
+    <Compile Include="PDA\Dtos\WhiteListsDto.cs" />
+    <Compile Include="PDA\IBerthsecAppService.cs" />
+    <Compile Include="PDA\IEmployeeAppService.cs" />
+    <Compile Include="PDA\EmployeeAppService.cs" />
+    <Compile Include="PDA\IPDAAppService.cs" />
+    <Compile Include="PDA\IPDAInspectorsService.cs" />
+    <Compile Include="PDA\ITenantAppService.cs" />
+    <Compile Include="PDA\PDAAppService.cs" />
+    <Compile Include="PDA\PDAInspectorsService.cs" />
+    <Compile Include="PDA\TenantAppService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rates\Dtos\CarFeeModel.cs" />
+    <Compile Include="Rates\Dtos\CarFeeScaleModel.cs" />
+    <Compile Include="Rates\Dtos\CarRateModel.cs" />
+    <Compile Include="Rates\Dtos\CarTimeQuantumModel.cs" />
+    <Compile Include="Rates\Dtos\ParkTimeModel.cs" />
+    <Compile Include="Rates\Dtos\RateCalculateModel.cs" />
+    <Compile Include="Rates\Dtos\RateMode.cs" />
+    <Compile Include="Rates\Dtos\RateModel.cs" />
+    <Compile Include="Rates\Dtos\TimeSettingModel.cs" />
+    <Compile Include="Rates\IRateAppService.cs" />
+    <Compile Include="Rates\RateAppService.cs" />
+    <Compile Include="Sensors\Dtos\BodyModel.cs" />
+    <Compile Include="Sensors\Dtos\INmotionDto.cs" />
+    <Compile Include="Sensors\Dtos\INmotionBody.cs" />
+    <Compile Include="Sensors\Dtos\PayloadModel.cs" />
+    <Compile Include="Sensors\Dtos\PolicyModel.cs" />
+    <Compile Include="Sensors\Dtos\UmengModel.cs" />
+    <Compile Include="Sensors\ISensorAppService.cs" />
+    <Compile Include="Sensors\SensorAppService.cs" />
+    <Compile Include="SettingStore\Dtos\SettingInfo.cs" />
+    <Compile Include="SettingStore\SettingStoreAppService.cs" />
+    <Compile Include="Smss\Dtos\SmsAccountDto.cs" />
+    <Compile Include="Smss\Dtos\SmsModelDto.cs" />
+    <Compile Include="Smss\Dtos\SmsSubmaiMailDto.cs" />
+    <Compile Include="Smss\SmsUtils.cs" />
+    <Compile Include="VideoEqs\Dtos\KeepAlive.cs" />
+    <Compile Include="VideoEqs\Dtos\PicList.cs" />
+    <Compile Include="VideoEqs\Dtos\VideoCarParkRequest.cs" />
+    <Compile Include="VideoEqs\Dtos\VideoEqFaultsRequest.cs" />
+    <Compile Include="VideoEqs\Dtos\VideoEqParkHighRequest.cs" />
+    <Compile Include="VideoEqs\Dtos\VideoEqParkRequest.cs" />
+    <Compile Include="VideoEqs\IVideoEqAppService.cs" />
+    <Compile Include="VideoEqs\VideoEqAppService.cs" />
+    <Compile Include="WebChat\IWebChatAppService.cs" />
+    <Compile Include="WebChat\WebChatAppService.cs" />
+    <Compile Include="WeChat\Dtos\WeixinTuserDto.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\F2.CommonTool\F2.CommonTool.csproj">
+      <Project>{07521a19-7169-402e-ba05-a8144ee8ddc6}</Project>
+      <Name>F2.CommonTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2.Core.Extensions\F2.Core.Extensions.csproj">
+      <Project>{1543572D-E974-4A4D-8973-A4EB347E8990}</Project>
+      <Name>F2.Core.Extensions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <Fakes Include="Fakes\AopSdk.fakes" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WebChat\Dtos\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets" Condition="Exists('..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,57 @@
+SUPPORTED_64_BIT_ABIS=[Ljava.lang.String;@343b0e2b
+versionCode=2
+BOARD=msm8909
+BOOTLOADER=unknown
+TYPE=userdebug
+ID=LMY47V
+TIME=1502367252000
+BRAND=K9_V2.2.24
+TAG=Build
+SERIAL=D1V0430000155
+HARDWARE=qcom
+SUPPORTED_ABIS=[Ljava.lang.String;@1bb85288
+CPU_ABI=armeabi-v7a
+RADIO=unknown
+IS_DEBUGGABLE=true
+MANUFACTURER=Centerm
+SUPPORTED_32_BIT_ABIS=[Ljava.lang.String;@4d8b67a
+TAGS=test-keys
+CPU_ABI2=armeabi
+UNKNOWN=unknown
+USER=Centerm
+FINGERPRINT=qcom/msm8909/msm8909:5.1.1/LMY47V/zhengjm08102014:userdebug/test-keys
+HOST=yzfcpb-33
+PRODUCT=k9
+versionName=2.0.2.20190333
+DISPLAY=msm8909-userdebug 5.1.1 LMY47V eng.zhengjm.20170810.201142 test-keys
+MODEL=K9
+DEVICE=k9
+2019-04-27 21:13:32android.os.NetworkOnMainThreadException
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1147)
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:110)
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:137)
+	at libcore.io.IoBridge.connect(IoBridge.java:122)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:456)
+	at java.net.Socket.connect(Socket.java:882)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:124)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:149)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:365)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:585)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:517)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:495)
+	at com.huierm.baowa.setting.InforManageActivity$2.onItemClick(InforManageActivity.java:411)
+	at android.widget.AdapterView.performItemClick(AdapterView.java:305)
+	at android.widget.AbsListView.performItemClick(AbsListView.java:1146)
+	at android.widget.AbsListView$PerformClick.run(AbsListView.java:3057)
+	at android.widget.AbsListView$3.run(AbsListView.java:3864)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5257)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:902)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:697)

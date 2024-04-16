@@ -1,0 +1,1 @@
+﻿2023-07-21 09:14:17,278 [13] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/interfacepda/CheckEmployeeLoginByDeviceType?userNameOrEmailAddress=0307&plainPassword=123456&tenancyName=JYTC&DeviceCode=357576032257246&DeviceType=1,参数描述{"input":{"userNameOrEmailAddress":"0307","plainPassword":"123456","tenancyName":"JYTC","DeviceCode":"357576032257246","DeviceType":"1"}}

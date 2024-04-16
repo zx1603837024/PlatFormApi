@@ -1,0 +1,3 @@
+﻿2023-06-29 16:46:58,090 [8] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/ModifyPassword,参数描述{"input":null}
+2023-06-29 16:48:02,016 [8] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/ModifyPassword,参数描述{"input":{"UserName":"9999","access_token":"01603988-1a30-42af-ac3e-d28fe2859866","NewPassword":"123455","OldPassword":"123455"}}
+2023-06-29 16:49:55,540 [9] INFO  log - 来自::1的请求,请求地址http://localhost:56882/api/InterfacePDAInspectors/ModifyPassword,参数描述{"input":{"UserName":"9999","access_token":"f1fd490b-bc61-4dc4-834a-828ff859e6bd","NewPassword":"123455","OldPassword":"123456"}}

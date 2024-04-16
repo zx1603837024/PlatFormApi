@@ -1,0 +1,7 @@
+﻿2023-04-28 17:19:57,326 [13] ERROR log - 请求地址http://localhost:56882/api/InterfaceInvoice/InvoiceCallBack?timestamp=125522,参数描述{},发生的异常无法将多个参数(“payload”和“httpContext”)绑定到请求的内容。
+   在 System.Web.Http.Controllers.HttpActionBinding.ExecuteBindingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()

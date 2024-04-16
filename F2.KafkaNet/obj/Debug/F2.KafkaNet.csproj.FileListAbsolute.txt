@@ -1,0 +1,15 @@
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\bin\Debug\x86\librdkafka.dll
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\bin\Debug\x86\zlib.dll
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\bin\Debug\x64\librdkafka.dll
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\bin\Debug\x64\zlib.dll
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\bin\Debug\F2.KafkaNet.dll
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\bin\Debug\F2.KafkaNet.pdb
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\bin\Debug\log4net.dll
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\bin\Debug\RdKafka.dll
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\bin\Debug\ZooKeeperNet.dll
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\bin\Debug\log4net.xml
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\obj\Debug\F2.KafkaNet.csproj.AssemblyReference.cache
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\obj\Debug\F2.KafkaNet.csproj.CoreCompileInputs.cache
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\obj\Debug\F2.KafkaNet.csproj.CopyComplete
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\obj\Debug\F2.KafkaNet.dll
+D:\Project\PlatFormApi_Business(东莞)\F2.KafkaNet\obj\Debug\F2.KafkaNet.pdb
